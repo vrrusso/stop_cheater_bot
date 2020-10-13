@@ -1,3 +1,5 @@
+import os
+import random
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from telegram import ReplyKeyboardMarkup, Contact
 import logging
@@ -11,8 +13,14 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 def cheat_response(update,context):
     if context.args:
         letter = str(context.args[0])
-        fruit = open('letters/'+letter+'/fruits.txt','r').read().splitlines()[0]
-        context.bot.send_message(chat_id=update.effective_chat.id, text= 'Fruta :%s'%fruit)
+        #create a .txt list
+        txt_list = os.listdir('letters/'+letter.lower())
+
+        #passes through the list showing random words
+        for i in txt_list:
+            word = open('letters/'+letter+'/'+i,'r').read().splitlines()
+            num = random.randint(0, len(word))
+            context.bot.send_message(chat_id=update.effective_chat.id, text= '%s: %s' % (i.replace('.txt', '').capitalize(),word[num].capitalize()))
     else:
         context.bot.send_message(chat_id=update.effective_chat.id, text='Você não passou nenhuma letra!')
 
