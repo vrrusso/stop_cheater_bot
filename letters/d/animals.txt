@@ -1,0 +1,26 @@
+dromedário (camelo);
+doninha (mamífero);
+dourado ou dourada (peixe);
+dingo (cão selvagem);
+dinossauro (réptil fóssil);
+damão (mamífero);
+dodô ou dodó (ave);
+dançador ou dançarino (ave);
+degolado (ave);
+diabo-da-tasmânia ou demônio-da-tasmânia (marsupial);
+diabo-espinhoso (lagarto);
+diabo-marinho (peixe);
+dragão-de-komodo (lagarto);
+dragão ou dragão-do-banhado (ave);
+dragão ou dragão-voador (lagarto);
+dragão-do-brejo (ave);
+dragão (peixe);
+dugongo ou dugão (mamífero aquático);
+diablotim (ave);
+degu (roedor);
+dik-dik (antílope);
+drongo (ave);
+dom-fafe (ave);
+diamante-de-gould (ave);
+diuca (ave);
+dojô (peixe).
