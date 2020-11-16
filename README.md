@@ -8,6 +8,6 @@ You can easily use this bot on your advantage, simply acess (link) and send the 
 
     ./cheat <letter>
     
-And the bot will return you with a message containing words of some categories
+And the bot will return you with a message containing words of some categories.
     
 # Run the source code
